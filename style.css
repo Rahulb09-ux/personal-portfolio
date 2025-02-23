@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #F0F8FF;
+    color: white;
+}
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(173, 0, 173);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: purple;
+}
+/* style the portfolio navigation bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 998;
+    transition: all 0.3s ease;
+    background-color: rgb(115, 13, 115);
+}
+.navlist{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    left: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: black;
+}
+/* Side Navigation Menu Button CSS */
+.menu-btn{
+    position: absolute;
+    color:#F0F8FF;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+}
+/* style the portfolio first section */
+.logo{
+    font-size: 1.6rem;
+    display: flex;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.firssection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+.firssection >div{
+    width: 30%;
+    padding: 40px 0;
+}
+.leftsection{
+    font-size: 3rem;
+    color: black;
+    margin: 70px 0;
+}
+.rightsection{
+    margin: 30px 50px;
+}
+.purpel{
+    color: rgb(106, 52, 157);
+}
+#element{
+    color: rgb(138, 91, 181);
+}
+.portfoliobtn{
+  display: flex;
+  cursor: pointer;
+}
+.portfoliobtn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.portfoliobtn a:hover{
+    color: black;
+}
+.btn1:hover{
+    font-size: 35px;
+}
+
+/* style the portfolio second section */
+.seconsection{
+    height: 300px;
+}
+hr{
+    margin: 0 30px;
+}
+h1{
+    margin: 60px 90px;
+    color: blueviolet;
+}
+.gray{
+    position: relative;
+    left: 135px;
+    top: 60px;
+    color: black;
+}
+.box{
+ background-color: black;
+ width: 115vh;
+ height: 2px;
+ margin: 1px 230px;
+ margin-bottom: 300px;
+ display: flex;
+}
+.vertical{
+    height: 91px;
+    width: 1px;
+    background-color: black;
+    margin: 0 100px;
+}
+.img-top{
+    width: 30px;
+    position: relative;
+    top: -40px;
+    left: -14px;
+}
+.title{
+    position: relative;
+    top: -21px;
+    left: 8px;
+    color: black;
+    
+}
+.title-3{
+    position: relative;
+    top: -28px;
+    left: 8px;
+    color: black
+
+}
+/* style the about me in main section */
+.about{
+    border: 1px solid azure;
+    height: 650px;
+    background: azure;
+}
+.aboutme{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    color: black;
+}
+.about p{
+    color: black;
+    width: 54%;
+    font-size: 25px;
+    display: flex;
+    font-weight:400;
+    position: relative;
+    top: 150px;
+    left: 90px;
+    color: rgb(115, 13, 115);
+
+}
+.buttons{
+    display: flex;
+    background-color: rgb(95, 61, 127);
+    font-size: 1.6rem;
+    padding: 5px 30px;
+    border: 1px solid black;
+    border-radius: 35px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+.image{
+    position: relative;
+    float: inline-end;
+    border-radius: 161px;
+    height: 264px;
+    right: 200px;
+    bottom: 100px;
+    
+}
+
+/* style the skills section in main section */
+.skills{
+    border: 1px solid azure;
+    height: 650px;
+    background: #F0F8FF;
+}
+
+.tag-s{
+    display: flex;
+    font-size: 1.6rem;
+    position: relative;
+    color: black;
+    justify-content: center;
+    top: 100px;
+
+}
+.para{
+    position: relative;
+    color: black;
+    width: 40%;
+    font-size: 28px;
+    top: 250px;
+    left: 100px;
+}
+.topic-1{
+    color: purple;
+    display: flex;
+    float: inline-end;
+    font-size: 25px;
+    position: relative;
+    right: 494px;
+    top: 50px;
+}
+.per-1{
+    color: purple;
+    display: flex;
+    float: inline-end;
+    right: 390px;
+    top: 90px;
+    position: relative;
+    font-size: 3.6rem;
+}
+.topic-2{
+    color: purple;
+    display: flex;
+    float: inline-end;
+    font-size: 25px;
+    position: relative;
+    right: -55px;
+    top: 50px;
+}
+.per-2{
+    color: purple;
+    display: flex;
+    float: inline-end;
+    font-size: 3.6rem;
+    top: 90px;
+    position: relative;
+    left: 150px;
+}
+.topic-3{
+    color: purple;
+    display: flex;
+    float: inline-end;
+    font-size: 25px;
+    position: relative;
+    top: 210px;
+}
+.per-3{
+    color: purple;
+    display: flex;
+    font-size: 3.6rem;
+    float: inline-end;
+    position: relative;
+    left: 100px;
+    top: 250px;
+}
+.topic-4{
+    color: purple;
+    display: flex;
+    float: inline-end;
+    font-size: 25px;
+    position: relative;
+    left: 533px;
+    top: 210px;
+}
+.per-4{
+    color: purple;
+    display: flex;
+    font-size: 3.6rem;
+    float: inline-end;
+    position: relative;
+    left: 637px;
+    top: 250px;
+}
+.scroll-button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: purple;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+ display: none;
+}
+
+/* style the portfolio footer  */
+footer{
+    height: 400px;
+    background-color: rgb(115, 13, 115);
+}
+/*style the portfolio social icon*/
+.social-icon{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    top: 200px;
+    left: -39px;
+    font-size: 2.6rem;
+}
+.social-icon a{
+    text-decoration: none;
+    color:rgb(126, 1, 244);
+    border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+.name{
+    position: relative;
+    top: 45px;
+    font-size: 1.9rem;
+}
+.contact{
+    display: flex;
+    float: right;
+    position: relative;
+    top: 45px;
+    right: -120px;
+    color: darkgray;
+}
+.email{
+    display: flex;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: -229px;
+    color: darkgray;
+}
+.github{
+    float: right;
+    position: relative;
+    top: 63px;
+    right: -423px;
+    color: darkgray;
+}
+
+
+
